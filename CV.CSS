@@ -1,0 +1,182 @@
+#first{
+ display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+
+
+#info{
+    color: rgb(0, 0, 0);
+    position:absolute;
+    bottom: 55%;
+    left:44%;
+}
+#image{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+}
+img{
+    position: absolute;
+    
+    width: 100px;
+    height:100px;
+
+    
+    border-color: aliceblue;
+    /* overflow: auto; */
+    border-radius: 50%;
+}
+#Cer{
+    position: absolute;
+    bottom: 30%;
+    color: rgb(0, 0, 0);
+}
+#Skills{
+    position: absolute;
+    bottom: -8.5%;
+    color: rgb(0, 0, 0);
+    
+}
+#hobbies{
+    position: absolute;
+    bottom: -29.5%;
+    color: rgb(0, 0, 0);
+    margin: auto;
+}
+h4{
+    font-size:larger;
+}
+h2{
+    font-size: larger;
+}
+h3{
+    font-size: larger;
+}
+h5{
+    font-size: larger;
+}
+body{
+    background-image: url(http://www.estidia.eu/wp-content/uploads/2018/04/Savin-NY-Website-Background-Web.jpg);
+}
+#logoC {
+    display: inline-block;
+    margin: 15px; /* margin: 20px was off */
+    height: 17px;
+    width: auto; /* correct proportions to specified height */
+    border-radius: 50%; /* makes it a circle */
+  }
+  #logoC{
+      position: absolute;
+      bottom: 58%;
+      left: 70%;
+  }
+  #logoH{
+    display: inline-block;
+    margin: 15px; /* margin: 20px was off */
+    height: 20px;
+    width: auto; /* correct proportions to specified height */
+    border-radius: 50%; /* makes it a circle */
+  }
+  #logoH{
+    position: absolute;
+    bottom: 50%;
+    left: 70%;
+  }
+  #logoS{
+    display: inline-block;
+    margin: 15px; /* margin: 20px was off */
+    height: 20px;
+    width: auto; /* correct proportions to specified height */
+    border-radius: 50%; /* makes it a circle */
+  }
+  #logoS{
+    position: absolute;
+    bottom: 43%;
+    left: 70%;
+  }
+  #logoP{
+    display: inline-block;
+    margin: 15px; /* margin: 20px was off */
+    height: 20px;
+    width: auto; /* correct proportions to specified height */
+    border-radius: 50%; /* makes it a circle */
+  }
+  #logoP{
+    position: absolute;
+    bottom: 37%;
+  left: 70%;
+ }
+#first{
+    color: rgb(0, 0, 0);
+}
+#bio{
+    position: absolute;
+    bottom: 7%;
+    left: 8.62%;
+    color: rgb(0, 0, 0);
+    font-size: larger;
+}
+h6{
+    font-size: larger;
+}
+#wiz{
+    position: absolute;
+    bottom: -43%;
+    left: 30%;
+}
+label {
+    display: block;
+    margin: 1px;
+    padding: 1px;
+  }
+  
+  .field {
+    margin: 1px;
+    padding: 1px;
+  }
+  
+  input:invalid {
+    background-color: #ffdddd;
+  }
+  
+  form:invalid {
+    border: 5px solid #ffdddd;
+  }
+  
+  input:valid {
+    background-color: #ddffdd;
+  }
+  
+  form:valid {
+    border: 5px solid #ddffdd;
+  }
+  
+  input:required {
+    border-color: #800000;
+    border-width: 3px;
+  }
+  
+  input:required:invalid {
+    border-color: #c00000;
+  }
+.formulaire label {
+    float: left;
+    width: 10em;
+    margin-right: -15em;
+    }
+.Email input {
+        width: 22.2%;
+        padding: 1px 10px;
+        margin: 5px 0;
+        box-sizing: border-box;
+         }
+         textarea {
+          padding: 37px;
+          line-height: 1.5;
+          border-radius: 5px;
+          border: 1px solid #ccc;
+          box-shadow: 1px 1px 1px #999;
+      }
